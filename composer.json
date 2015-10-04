@@ -1,5 +1,5 @@
 {
-    "name": "avin/CSVCommander",
+    "name": "avin/csv-commander",
     "description": "CSV file operations lib.",
     "keywords": [
         "csv"

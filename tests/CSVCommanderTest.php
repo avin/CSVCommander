@@ -18,7 +18,7 @@ class CSVCommanderTest extends PHPUnit_Framework_TestCase {
         $this->assertTrue($result);
 
         //Test read
-        $resultData = $csvCommander->getData($fileName, $data);
+        $resultData = $csvCommander->getData($fileName);
         $this->assertEquals(2, sizeof($resultData));
         $this->assertEquals(3, sizeof($resultData[0]));
     }
